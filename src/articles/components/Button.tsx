@@ -20,6 +20,6 @@ const Button: React.SFC<IButtonProps> = (props) => (
 );
 Button.defaultProps = {
     children: null,
-    onClick: () => {}
+    onClick: () => { console.log('he')}
 };
 export default Button;

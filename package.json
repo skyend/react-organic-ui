@@ -33,11 +33,9 @@
     ]
   },
   "devDependencies": {
-
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
-    "babel-loader": "^8.0.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@babel/plugin-transform-object-assign": "^7.2.0",
@@ -45,7 +43,13 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-console": "^1.2.1",
+    "@storybook/addon-notes": "^5.1.11",
+    "@storybook/addon-storysource": "^5.1.11",
+    "@storybook/addon-viewport": "^5.1.11",
     "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.0",
     "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-optimize-clsx": "^2.4.1",
     "babel-plugin-preval": "^2.0.0",
