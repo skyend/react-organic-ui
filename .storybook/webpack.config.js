@@ -4,6 +4,12 @@ const STORIES_PATH = path.join(__dirname, '../stories');
 //dont need stories path if you have your stories inside your //components folder
 module.exports = ({config}) => {
     config.module.rules.push({
+        test: /\.stories\.tsx?$/,
+        loaders: [require.resolve('@storybook/addon-storysource/loader')],
+        enforce: 'pre',
+    });
+
+    config.module.rules.push({
         test: /\.(ts|tsx)$/,
         include: [SRC_PATH, STORIES_PATH],
         use: [
